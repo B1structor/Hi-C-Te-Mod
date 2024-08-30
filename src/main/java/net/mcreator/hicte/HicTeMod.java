@@ -18,6 +18,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.hicte.init.HicTeModTabs;
+import net.mcreator.hicte.init.HicTeModMenus;
 import net.mcreator.hicte.init.HicTeModItems;
 import net.mcreator.hicte.init.HicTeModBlocks;
 import net.mcreator.hicte.init.HicTeModBlockEntities;
@@ -48,6 +49,7 @@ public class HicTeMod {
 
 		HicTeModTabs.REGISTRY.register(bus);
 
+		HicTeModMenus.REGISTRY.register(bus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

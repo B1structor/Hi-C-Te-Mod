@@ -1,20 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "HiCTe",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hi_c_te",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/hicte/item/HiCTeItem.java",
-          "src/main/resources/assets/hic_te/models/item/hi_c_te.json"
-        ]
-      },
-      "path": "~/Items"
-    },
-    {
       "name": "OnItemEaten",
       "type": "procedure",
       "compiles": true,
@@ -44,34 +30,6 @@
       }
     },
     {
-      "name": "HiCTePack",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hi_c_te_pack",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/hic_te/models/item/hi_c_te_pack.json",
-          "src/main/java/net/mcreator/hicte/item/HiCTePackItem.java"
-        ]
-      },
-      "path": "~/Items"
-    },
-    {
-      "name": "HiCTe2Lt",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hi_c_te_2_lt",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/hic_te/models/item/hi_c_te_2_lt.json",
-          "src/main/java/net/mcreator/hicte/item/HiCTe2LtItem.java"
-        ]
-      },
-      "path": "~/Items"
-    },
-    {
       "name": "FuctionalBlock",
       "type": "block",
       "compiles": true,
@@ -88,6 +46,104 @@
         ]
       },
       "path": "~/Blocks"
+    },
+    {
+      "name": "FuctionalBlockUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuctional_block_ui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/world/inventory/FuctionalBlockUIMenu.java",
+          "src/main/java/net/mcreator/hicte/client/gui/FuctionalBlockUIScreen.java"
+        ]
+      },
+      "path": "~/UI"
+    },
+    {
+      "name": "ItemTakenfromOutput",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_takenfrom_output",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/procedures/ItemTakenfromOutputProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Code"
+    },
+    {
+      "name": "HiCTeinBox",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hi_c_tein_box",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hic_te/models/item/hi_c_tein_box.json",
+          "src/main/java/net/mcreator/hicte/item/HiCTeinBoxItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "HiCTex3",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hi_c_tex_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/item/HiCTex3Item.java",
+          "src/main/resources/assets/hic_te/models/item/hi_c_tex_3.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "HiCTePackBox",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hi_c_te_pack_box",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hic_te/models/item/hi_c_te_pack_box.json",
+          "src/main/java/net/mcreator/hicte/item/HiCTePackBoxItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "HiCTePack",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hi_c_te_pack",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hic_te/models/item/hi_c_te_pack.json",
+          "src/main/java/net/mcreator/hicte/item/HiCTePackItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "HiCTe2LtEmpty",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hi_c_te_2_lt_empty",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/item/HiCTe2LtEmptyItem.java",
+          "src/main/resources/assets/hic_te/models/item/hi_c_te_2_lt_empty.json"
+        ]
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],
@@ -96,11 +152,16 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.hic_te.hi_c_te_pack": "Hi-C Te Pack",
-      "item.hic_te.hi_c_te_2_lt": "Hi-C Te 2 Lt",
+      "gui.hic_te.fuctional_block_ui.button_make": "Make",
+      "gui.hic_te.fuctional_block_ui.label_fuctional_block": "Fuctional Block",
+      "item.hic_te.hi_c_tein_box": "Hi-C Te in Box",
+      "item.hic_te.hi_c_te_pack": "Hi C Te Pack",
+      "item.hic_te.hi_c_tex_3": "Hi-C Te x3",
       "item.hic_te.hi_c_te": "Hi-C Te",
       "block.hic_te.fuctional_block": "Fuctional Block",
-      "item_group.hic_te.hi_c_te_mod": "Hi-C Te Mod"
+      "item.hic_te.hi_c_te_pack_box": "Hi C Te Pack Box",
+      "item_group.hic_te.hi_c_te_mod": "Hi-C Te Mod",
+      "item.hic_te.hi_c_te_2_lt_empty": "Hi C Te 2 Lt Empty"
     }
   },
   "foldersRoot": {
@@ -121,6 +182,10 @@
       {
         "name": "UI",
         "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
       }
     ]
   },
@@ -128,7 +193,7 @@
     "modid": "hic_te",
     "modName": "Hi-C Té",
     "version": "1.0.0",
-    "author": "bisma, MCreator",
+    "author": "B1structor, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Not specified",
     "serverSideOnly": false,
@@ -137,6 +202,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.hicte"
   },
   "mcreatorVersion": 202400232117

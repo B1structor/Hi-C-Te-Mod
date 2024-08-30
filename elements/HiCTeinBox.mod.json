@@ -3,18 +3,18 @@
   "_type": "item",
   "definition": {
     "renderType": 1,
-    "texture": "hi-c_te_pack",
-    "customModelName": "hi-c_te_pack:default",
+    "texture": "hi-c_te_in_box",
+    "customModelName": "hi-c_te_in_box:default",
     "customProperties": {},
     "states": [],
-    "name": "Hi C Te Pack",
-    "rarity": "RARE",
+    "name": "Hi-C Te in Box",
+    "rarity": "UNCOMMON",
     "creativeTabs": [
       {
         "value": "CUSTOM:HiCTeMod"
       }
     ],
-    "stackSize": 8,
+    "stackSize": 16,
     "enchantability": 0,
     "useDuration": 32,
     "toolType": 1.0,
@@ -44,13 +44,13 @@
       "value": "Arrow"
     },
     "isFood": true,
-    "nutritionalValue": 8,
-    "saturation": 0.6,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
     "eatResultItem": {
       "value": ""
     },
     "isMeat": false,
     "isAlwaysEdible": true,
-    "animation": "eat"
+    "animation": "drink"
   }
 }

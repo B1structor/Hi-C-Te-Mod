@@ -4,8 +4,8 @@
   "definition": {
     "name": "Hi-C Te Mod",
     "icon": {
-      "value": "CUSTOM:HiCTe"
+      "value": "CUSTOM:HiCTeinBox"
     },
-    "showSearch": true
+    "showSearch": false
   }
 }

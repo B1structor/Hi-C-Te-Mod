@@ -42,6 +42,52 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "HiCTePack",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hi_c_te_pack",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hic_te/models/item/hi_c_te_pack.json",
+          "src/main/java/net/mcreator/hicte/item/HiCTePackItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "HiCTe2Lt",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hi_c_te_2_lt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hic_te/models/item/hi_c_te_2_lt.json",
+          "src/main/java/net/mcreator/hicte/item/HiCTe2LtItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "FuctionalBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuctional_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/block/FuctionalBlockBlock.java",
+          "src/main/resources/assets/hic_te/models/item/fuctional_block.json",
+          "src/main/resources/assets/hic_te/models/block/fuctional_block.json",
+          "src/main/java/net/mcreator/hicte/block/entity/FuctionalBlockBlockEntity.java",
+          "src/main/resources/data/hic_te/loot_tables/blocks/fuctional_block.json",
+          "src/main/resources/assets/hic_te/blockstates/fuctional_block.json"
+        ]
+      },
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [],
@@ -50,8 +96,11 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item.hic_te.hi_c_te_pack": "Hi-C Te Pack",
+      "item.hic_te.hi_c_te_2_lt": "Hi-C Te 2 Lt",
       "item.hic_te.hi_c_te": "Hi-C Te",
-      "item_group.hic_te.hi_c_te_mod": "Hi C Te Mod"
+      "block.hic_te.fuctional_block": "Fuctional Block",
+      "item_group.hic_te.hi_c_te_mod": "Hi-C Te Mod"
     }
   },
   "foldersRoot": {
@@ -63,6 +112,14 @@
       },
       {
         "name": "Code",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "UI",
         "children": []
       }
     ]

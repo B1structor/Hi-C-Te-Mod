@@ -1,4 +1,7 @@
 {
+  "item.hic_te.hi_c_te_pack": "Hi-C Te Pack",
+  "item.hic_te.hi_c_te_2_lt": "Hi-C Te 2 Lt",
   "item.hic_te.hi_c_te": "Hi-C Te",
-  "item_group.hic_te.hi_c_te_mod": "Hi C Te Mod"
+  "block.hic_te.fuctional_block": "Fuctional Block",
+  "item_group.hic_te.hi_c_te_mod": "Hi-C Te Mod"
 }

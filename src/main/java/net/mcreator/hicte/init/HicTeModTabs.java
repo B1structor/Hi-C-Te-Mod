@@ -19,5 +19,8 @@ public class HicTeModTabs {
 	public static final RegistryObject<CreativeModeTab> HI_C_TE_MOD = REGISTRY.register("hi_c_te_mod",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hic_te.hi_c_te_mod")).icon(() -> new ItemStack(HicTeModItems.HI_C_TE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(HicTeModItems.HI_C_TE.get());
+				tabData.accept(HicTeModItems.HI_C_TE_PACK.get());
+				tabData.accept(HicTeModItems.HI_C_TE_2_LT.get());
+				tabData.accept(HicTeModBlocks.FUCTIONAL_BLOCK.get().asItem());
 			}).withSearchBar().build());
 }

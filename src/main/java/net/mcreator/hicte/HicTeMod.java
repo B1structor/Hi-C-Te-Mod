@@ -19,6 +19,8 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.hicte.init.HicTeModTabs;
 import net.mcreator.hicte.init.HicTeModItems;
+import net.mcreator.hicte.init.HicTeModBlocks;
+import net.mcreator.hicte.init.HicTeModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -40,6 +42,8 @@ public class HicTeMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+		HicTeModBlocks.REGISTRY.register(bus);
+		HicTeModBlockEntities.REGISTRY.register(bus);
 		HicTeModItems.REGISTRY.register(bus);
 
 		HicTeModTabs.REGISTRY.register(bus);

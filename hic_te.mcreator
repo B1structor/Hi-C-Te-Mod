@@ -1,0 +1,86 @@
+{
+  "mod_elements": [
+    {
+      "name": "HiCTe",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hi_c_te",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/item/HiCTeItem.java",
+          "src/main/resources/assets/hic_te/models/item/hi_c_te.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "OnItemEaten",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_item_eaten",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/procedures/OnItemEatenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Code"
+    },
+    {
+      "name": "HiCTeMod",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hi_c_te_mod",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.hic_te.hi_c_te": "Hi-C Te",
+      "item_group.hic_te.hi_c_te_mod": "Hi C Te Mod"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Code",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "hic_te",
+    "modName": "Hi-C Té",
+    "version": "1.0.0",
+    "author": "bisma, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.hicte"
+  },
+  "mcreatorVersion": 202400232117
+}

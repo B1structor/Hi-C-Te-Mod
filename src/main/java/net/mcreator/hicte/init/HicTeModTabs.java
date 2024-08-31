@@ -19,10 +19,13 @@ public class HicTeModTabs {
 	public static final RegistryObject<CreativeModeTab> HI_C_TE_MOD = REGISTRY.register("hi_c_te_mod",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hic_te.hi_c_te_mod")).icon(() -> new ItemStack(HicTeModItems.HI_C_TEIN_BOX.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(HicTeModBlocks.FUCTIONAL_BLOCK.get().asItem());
+				tabData.accept(HicTeModItems.CARDBOARD.get());
+				tabData.accept(HicTeModItems.CARBOARD_BOX.get());
+				tabData.accept(HicTeModItems.HI_C_TE_PACK_BOX.get());
 				tabData.accept(HicTeModItems.HI_C_TEIN_BOX.get());
 				tabData.accept(HicTeModItems.HI_C_TEX_3.get());
-				tabData.accept(HicTeModItems.HI_C_TE_PACK_BOX.get());
 				tabData.accept(HicTeModItems.HI_C_TE_PACK.get());
+				tabData.accept(HicTeModItems.HI_C_TE_2_LT.get());
 			})
 
 					.build());

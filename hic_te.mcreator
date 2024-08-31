@@ -1,25 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "OnItemEaten",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "on_item_eaten",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/hicte/procedures/OnItemEatenProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Code"
-    },
-    {
       "name": "HiCTeMod",
       "type": "tab",
       "compiles": true,
@@ -144,24 +125,99 @@
         ]
       },
       "path": "~/Items"
+    },
+    {
+      "name": "HiCTe2Lt",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hi_c_te_2_lt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hic_te/models/item/hi_c_te_2_lt.json",
+          "src/main/java/net/mcreator/hicte/item/HiCTe2LtItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CarboardBox",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carboard_box",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/item/CarboardBoxItem.java",
+          "src/main/resources/assets/hic_te/models/item/carboard_box.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Cardboard",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cardboard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/item/CardboardItem.java",
+          "src/main/resources/assets/hic_te/models/item/cardboard.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "OnHiCTeDrank",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_hi_c_te_drank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hicte/procedures/OnHiCTeDrankProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Code"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
-  "tab_element_order": {},
+  "tab_element_order": {
+    "CUSTOM:HiCTeMod": [
+      "FuctionalBlock",
+      "Cardboard",
+      "CarboardBox",
+      "HiCTePackBox",
+      "HiCTeinBox",
+      "HiCTex3",
+      "HiCTePack",
+      "HiCTe2Lt"
+    ]
+  },
   "language_map": {
     "en_us": {
-      "gui.hic_te.fuctional_block_ui.button_make": "Make",
+      "item.hic_te.carboard_box": "Carboard Box",
       "gui.hic_te.fuctional_block_ui.label_fuctional_block": "Fuctional Block",
-      "item.hic_te.hi_c_tein_box": "Hi-C Te in Box",
-      "item.hic_te.hi_c_te_pack": "Hi C Te Pack",
-      "item.hic_te.hi_c_tex_3": "Hi-C Te x3",
+      "item.hic_te.hi_c_te_2_lt": "Hi C Te 2 Lt",
       "item.hic_te.hi_c_te": "Hi-C Te",
       "block.hic_te.fuctional_block": "Fuctional Block",
-      "item.hic_te.hi_c_te_pack_box": "Hi C Te Pack Box",
+      "item.hic_te.hi_c_te_pack_box": "Hi-C Te Pack Box",
+      "gui.hic_te.fuctional_block_ui.button_make": "Make",
+      "item.hic_te.hi_c_te_pack": "Hi-C Te Pack",
+      "item.hic_te.hi_c_tein_box": "Hi-C Te in Box",
+      "item.hic_te.hi_c_tex_3": "Hi-C Te x3",
+      "item.hic_te.cardboard": "Cardboard",
       "item_group.hic_te.hi_c_te_mod": "Hi-C Te Mod",
-      "item.hic_te.hi_c_te_2_lt_empty": "Hi C Te 2 Lt Empty"
+      "item.hic_te.hi_c_te_2_lt_empty": "Hi-C Te 2 Lt - Empty"
     }
   },
   "foldersRoot": {

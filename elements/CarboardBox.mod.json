@@ -3,14 +3,18 @@
   "_type": "item",
   "definition": {
     "renderType": 1,
-    "texture": "hi-c_te_2lt_empty",
-    "customModelName": "hi-c_te_2lt_empty:default",
+    "texture": "cardboard_box",
+    "customModelName": "cardboard_box:default",
     "customProperties": {},
     "states": [],
-    "name": "Hi-C Te 2 Lt - Empty",
-    "rarity": "RARE",
-    "creativeTabs": [],
-    "stackSize": 6,
+    "name": "Carboard Box",
+    "rarity": "COMMON",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:HiCTeMod"
+      }
+    ],
+    "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,

@@ -3,16 +3,20 @@
   "_type": "item",
   "definition": {
     "renderType": 1,
-    "texture": "hi-c_te_2lt_empty",
-    "customModelName": "hi-c_te_2lt_empty:default",
+    "texture": "hi-c_te_2lt",
+    "customModelName": "hi-c_te_2lt:default",
     "customProperties": {},
     "states": [],
-    "name": "Hi-C Te 2 Lt - Empty",
-    "rarity": "RARE",
-    "creativeTabs": [],
-    "stackSize": 6,
+    "name": "Hi C Te 2 Lt",
+    "rarity": "EPIC",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:HiCTeMod"
+      }
+    ],
+    "stackSize": 4,
     "enchantability": 0,
-    "useDuration": 0,
+    "useDuration": 64,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
@@ -33,20 +37,23 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onFinishUsingItem": {
+      "name": "OnHiCTeDrank"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,
     "projectile": {
       "value": "Arrow"
     },
-    "isFood": false,
-    "nutritionalValue": 4,
-    "saturation": 0.3,
+    "isFood": true,
+    "nutritionalValue": 12,
+    "saturation": 1.0,
     "eatResultItem": {
       "value": ""
     },
     "isMeat": false,
-    "isAlwaysEdible": false,
-    "animation": "none"
+    "isAlwaysEdible": true,
+    "animation": "drink"
   }
 }

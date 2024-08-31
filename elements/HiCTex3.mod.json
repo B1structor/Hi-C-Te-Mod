@@ -4,7 +4,7 @@
   "definition": {
     "renderType": 1,
     "texture": "hi-c_te_x3",
-    "customModelName": "hi-c_te_x3:default",
+    "customModelName": "hi-c_te_pack_mid:default",
     "customProperties": {},
     "states": [],
     "name": "Hi-C Te x3",

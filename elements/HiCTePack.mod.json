@@ -7,7 +7,7 @@
     "customModelName": "hi-c_te_pack:default",
     "customProperties": {},
     "states": [],
-    "name": "Hi C Te Pack",
+    "name": "Hi-C Te Pack",
     "rarity": "RARE",
     "creativeTabs": [
       {
@@ -16,7 +16,7 @@
     ],
     "stackSize": 8,
     "enchantability": 0,
-    "useDuration": 32,
+    "useDuration": 48,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
@@ -37,6 +37,9 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onFinishUsingItem": {
+      "name": "OnHiCTeDrank"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,
@@ -51,6 +54,6 @@
     },
     "isMeat": false,
     "isAlwaysEdible": true,
-    "animation": "eat"
+    "animation": "drink"
   }
 }

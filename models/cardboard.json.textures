@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "hi-c_te_in_box_texture"
+        "0": "cardboard_texture"
       },
       "name": "default"
     }

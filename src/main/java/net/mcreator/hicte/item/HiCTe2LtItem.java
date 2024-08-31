@@ -9,11 +9,11 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.entity.LivingEntity;
 
-import net.mcreator.hicte.procedures.OnItemEatenProcedure;
+import net.mcreator.hicte.procedures.OnHiCTeDrankProcedure;
 
-public class HiCTeItem extends Item {
-	public HiCTeItem() {
-		super(new Item.Properties().stacksTo(16).rarity(Rarity.UNCOMMON).food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.3f).alwaysEat().build()));
+public class HiCTe2LtItem extends Item {
+	public HiCTe2LtItem() {
+		super(new Item.Properties().stacksTo(4).rarity(Rarity.EPIC).food((new FoodProperties.Builder()).nutrition(12).saturationMod(1f).alwaysEat().build()));
 	}
 
 	@Override
@@ -22,12 +22,17 @@ public class HiCTeItem extends Item {
 	}
 
 	@Override
+	public int getUseDuration(ItemStack itemstack) {
+		return 64;
+	}
+
+	@Override
 	public ItemStack finishUsingItem(ItemStack itemstack, Level world, LivingEntity entity) {
 		ItemStack retval = super.finishUsingItem(itemstack, world, entity);
 		double x = entity.getX();
 		double y = entity.getY();
 		double z = entity.getZ();
-		OnItemEatenProcedure.execute(entity);
+		OnHiCTeDrankProcedure.execute(entity);
 		return retval;
 	}
 }
